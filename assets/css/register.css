@@ -1,0 +1,40 @@
+.container-register {
+  height: 100vh;
+  background-image: url(../img/home/1/sergio1.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-register form {
+  height: 300px;
+  width: 40%;
+}
+
+.container-register form input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffff;
+  border: none;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.container-register form input[type="submit"] {
+  width: 30%;
+  padding: 1rem;
+  margin-top: 10px;
+  cursor: pointer;
+  color: #ffff;
+  background-color: rgba(66, 72, 66, 0.9);
+  border: none;
+  float: right;
+}
+
+.container-register form input[type="submit"]:hover {
+  background-color: rgba(66, 72, 66, .7)
+}

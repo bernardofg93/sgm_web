@@ -1,0 +1,127 @@
+/* footer */
+
+.containerFooter {
+  background-image: url(../img/home/7/1.png);
+  background-position: center center;
+  background-size: cover;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  display: grid;
+}
+
+.containerFooter .txtHead {
+  padding: 6rem;
+}
+
+.cont-head-txt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 1 / 4;
+}
+
+.containerFooter .txtHead p {
+  font-size: 20px;
+}
+
+.containerFooter .txtHead i {
+  color: #fff;
+}
+
+.containerFooter .footer {
+  display: grid;
+}
+
+.containerFooter .footer li {
+  list-style: none;
+}
+
+.containerFooter .footer .box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer .boxOne img {
+  width: 80%;
+}
+
+.footer .boxThree li {
+  display: flex;
+  justify-content: center;
+}
+
+.footer .boxThree form {
+  width: 90%;
+}
+
+.footer .boxThree form p {
+  font-size: 14px;
+  text-align: justify;
+  margin-bottom: 0.5rem;
+}
+
+.footer .boxThree input[type="email"] {
+  width: 100%;
+  padding: 0.6rem;
+}
+
+.footer .boxThree input[type="submit"] {
+  width: 30%;
+  padding: 0.4rem;
+  float: right;
+  margin-top: 10px;
+  background-color: var(--botones);
+  border: none;
+  cursor: pointer;
+}
+
+.containerFooter .copyright {
+  padding: 1rem;
+  grid-column: 1 / 5;
+  margin: 0 auto;
+}
+
+/* media querys */
+@media screen and (min-width: 768px) {
+  .containerFooter {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .containerFooter .txtHead {
+    grid-column: 1 / 4;
+  }
+  .containerFooter .footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+  }
+  .footer .boxOne {
+    grid-column: 1 / 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+  }
+  #copy {
+    color: #fff;
+    align-self: flex-end;
+  }
+  .footer .boxOne .fab {
+    font-size: 25px;
+    margin-left: 0.5rem;
+  }
+  .footer .boxTwo {
+    grid-column: 2 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer .boxThree {
+    grid-column: 3 / 4;
+  }
+  .footer .boxThree form {
+    width: 60%;
+  }
+}

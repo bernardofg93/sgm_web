@@ -1,0 +1,87 @@
+.contMembership {
+  display: grid;
+  grid-gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width:1068px) {
+    .contMembership {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+      }
+      .cardsMembership-one {
+        height: 200px;
+        background-color: aliceblue;
+    }
+}
+
+@media screen and (max-width:648px) {
+    .contMembership {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      }
+}
+
+@media screen and (min-width:1068px) {
+    .contMembership {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 150px);  
+      }
+
+.titleMembership {
+    grid-column: 1 / 5;
+    grid-row: 1;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+
+.cardsMembership-one {
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+}
+
+.cardsMembership-two {
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
+
+}
+
+}
+
+.titleMembership {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+
+.cardsMembership-one {
+    background-color: rgba(255, 255, 255, .1);
+
+}
+
+.cardsMembership-two {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.membOne {
+    display: grid;
+    align-content: center;
+    justify-items: center;
+}
+
+.membOne h4 {
+    color: #ffffff;
+}
+
+.headMembership {
+    height: 35px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.headMembership p {
+    text-align: center;
+    margin-top: 5px;
+    color: #ffffff;
+}

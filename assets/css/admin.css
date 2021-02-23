@@ -1,0 +1,209 @@
+.cont-admin {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  background-image: url(../img/clases/1_Classes_Fondo.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.fm-prod input[type="text"]:focus,
+.fm-prod input[type="number"]:focus,
+.fm-prod input[type="password"]:focus,
+.fm-prod input[type="file"] {
+  border:1px solid #2596be;
+}
+
+.fm-prod input[type="text"],
+.fm-prod input[type="number"],
+.fm-prod input[type="password"],
+.fm-prod input[type="file"]{
+  border-radius: 3px;
+  border: 1px solid #000000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 14px;
+}
+
+aside {
+  background-color: var(--blackrgba);
+  display: flex;
+  justify-content: center;
+}
+
+aside i {
+  margin-right: 5px;
+  color: #fff;
+}
+
+aside ul li a:hover {
+  text-decoration: underline;
+}
+
+.cont-admin .center-admin {
+  grid-column: 2 / 7;
+}
+
+table tr td {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+table tr td img {
+  width: 20%;
+}
+
+.cont-admin .center-admin tbody {
+  height: 200px;
+  overflow: scroll;
+}
+
+#thead th {
+  padding: 8px;
+  color: white;
+  text-align: center;
+}
+
+td {
+  text-align: center;
+}
+
+table.m-0 {
+  margin: 0;
+  padding: 0;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+.fa-edit {
+  color: green;
+}
+
+.fa-trash-alt {
+  color: #C2185B;
+  background-color: #000000;
+  font-size: 20px;
+  border: none;
+}
+
+/* categorias productos */
+.container-product {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+
+.container-product .numbers {
+  display: flex;
+  justify-content:space-between;
+  max-width:100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.container-product .numbers li{
+  list-style: none;
+  width: 30%;
+ }
+
+.container-product h4 {
+  text-align: center;
+}
+
+.cont-admin .container-product form .image img{
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.container-category form input[type="text"]{
+ width: 100%;
+}
+
+.cont-cat-prod {
+  grid-column: 2 / 8;
+  padding: 1rem;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.cont-cat-form-prod-2 {
+  grid-column: 1 / 3
+}
+
+.cont-cat-form-prod-2 table {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  color: #ddd;
+}
+
+.cont-cat-prod .btn-prod {
+  cursor: pointer;
+  margin-top: 5px;
+  width: 20%;
+  padding: 10px;
+  border-radius: 2px;
+  background-color: #4d5546;
+  color: #fff;
+  float: right;
+  border: none;
+ }
+
+ .cont-cat-prod .btn-prod:hover {
+  opacity: .8;
+ }
+
+.cont-cat-prod .container-product input[type="text"] {
+  width: 100%;
+}
+
+.cont-cat-prod .container-product input[type="number"] {
+  width: 100%;
+}
+
+.cont-cat-prod .container-product select{
+  width: 100%;
+  padding: 14px;
+  background-color: var(--cajaTexto);
+  border: none;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container-product form input[type="file"] {
+  width: 100%;
+}
+
+/* formulario category */
+.cont-admin .container-category {
+ background: rgba(0, 0, 0, 0.2);
+ height: 200px;
+ max-width: 100%;
+ padding: 1rem;
+}
+
+.cont-admin .container-category h4 {
+  text-align: center;
+}
+
+.cont-cat-prod .form-cat-prod input[type="text"] {
+  outline: none;
+}
+
+.cont-cat-prod .txt-box {
+  background-color: var(--cajaTexto);
+  outline: none;
+  border: none;
+  color: #fff;
+}
+
+/* edid product */
+
+.container-myAddres section {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}

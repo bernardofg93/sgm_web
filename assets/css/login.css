@@ -1,0 +1,47 @@
+.container-login {
+    height: 100vh;
+    background-image: url(../img/home/1/sergio1.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+.container-login .logo {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.container-login form {
+    height: 200px;
+    width: 50%;
+}
+
+.container-login form input[type="email"]
+{
+    width: 100%;
+    padding: 1.30rem;
+    border: none;
+    margin-top: 10px;
+}
+
+.container-login form input[type="password"] {
+    width: 100%;
+    padding: 1.30rem;
+    border: none;
+    margin-top: 10px;
+}
+.container-login form input[type="submit"]{
+    width: 25%;
+    padding: 1rem;
+    cursor: pointer;
+    color: #ffff;
+    background-color: rgba(66, 72, 66, .7);
+    border: none;
+    margin-top: 10px;
+    float: right;
+}
+
+.container-login form input[type="submit"]:hover {
+    background-color: rgba(66, 72, 66, .7)
+}

@@ -1,0 +1,43 @@
+.store {
+    background-image: url(../img/store/1_Fondo.png);
+}
+
+.store .banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.store .banner img {
+    width: 90%;
+}
+
+.store .productsContainer {
+    display: grid;
+    grid-gap: 1rem;
+    padding: 1rem;
+}
+
+.store .productsContainer .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cajaTexto);
+}
+
+.store .productsContainer .product a {
+    background-color: var(--botones);
+    padding: 5px 15px;
+    margin-bottom: 10px;
+}
+
+.store .productsContainer .product img {
+    width: 60%;
+}
+
+@media screen and (min-width:768px) {
+    .productsContainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

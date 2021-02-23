@@ -1,0 +1,179 @@
+
+.container-cart {
+    background-image: url(../img/clases/2_Fondo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.cart-view {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 50%;
+    color: #fff;
+    padding: 1rem;
+}
+
+.cart-view img {
+    width: 50%;
+}
+
+/* hacer el pedido */
+.container-pedido a {
+    cursor: pointer;
+    margin-top: 5px;
+    width: 20%;
+    padding: 4px;
+    border-radius: 2px;
+    background-color: #4d5546;
+    color: #fff;
+    float: right;
+    border: none;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.container-pedido a:hover {
+    opacity: .6;
+}
+
+.pedido-form input[type="text"]:focus{
+  border:1px solid #2596be;
+}
+
+.container-pedido { 
+   background-image: url(../img/events/1/1_Fondo.png);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: grid;
+   justify-items: center;
+   align-content: center;
+   padding: 1rem;
+}
+
+.container-pedido .cont-form-pedido {
+    width: 35%;
+}
+
+.pedido-form select {
+    width: 100%;
+    padding: 5px;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, .8);
+    border: none;
+}
+
+.pedido-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, .8);
+    color: #000;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+.pedido-form input[type="submit"] {
+    cursor: pointer;
+    background-color: #4d5546;
+    border: none;
+    padding: 8px;
+    width: 30%;
+    border-radius: 2px;
+    float: right;
+    color: #fff;
+}
+
+.pedido-form input[type="submit"]:hover {
+    opacity: .8;
+}
+
+/* addres cards */
+.container-myAddres {
+   background-image: url(../img/events/1/1_Fondo.png);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.container-myAddres .my-addres {
+  width: 50%;
+}
+
+.my-addres .card-add-addres .cont-card-add {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+    cursor: pointer; 
+}
+
+.my-addres .card-add-addres .cont-card-add:hover {
+    opacity: .8;
+}
+
+.my-addres .card-add-addres .cont-card-add i {
+    font-size: 50px;
+    color: #d2d2d2;
+    margin-bottom: 5px;
+}
+
+.my-addres {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+    padding: 1rem;
+}
+
+.my-addres .card-addres {
+    background-color: #f2f2f2;
+    width: 280px;
+    height: 250px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.my-addres .card-addres a {
+    font-size: 12px;
+}
+
+.my-addres .card-addres a {
+    color: rgb(42, 32, 138);
+}
+
+
+.my-addres .card-addres p {
+    color: #000;
+}
+
+.my-addres .card-addres .txt-card-addres {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+}
+
+.my-addres .card-addres .txt-card-addres p {
+    font-size: 12px;
+}
+
+.my-addres .card-addres .options-addres {
+    height: 30%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.my-addres .card-addres .options-addres a {
+    font-size: 12px;
+    padding: 10px;
+}
