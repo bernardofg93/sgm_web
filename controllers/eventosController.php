@@ -1,6 +1,6 @@
 <?php
 
-class EventosController
+class eventosController
 {
     public function index()
     {
