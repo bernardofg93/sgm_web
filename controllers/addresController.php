@@ -1,6 +1,6 @@
 <?php
 require_once 'models/Addres.php';
- class AddresController 
+ class addresController 
  {
      public function index(){
          echo 'pagina index addres';
