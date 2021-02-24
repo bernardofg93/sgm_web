@@ -1,6 +1,6 @@
 <?php
 
-class ClassesController
+class classesController
 {
     public function index()
     {
