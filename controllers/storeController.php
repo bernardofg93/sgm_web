@@ -1,6 +1,6 @@
 <?php
 require_once 'models/Product.php';
-class StoreController
+class atoreController
 {
     public function Home()
     {
