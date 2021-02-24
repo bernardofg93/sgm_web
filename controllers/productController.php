@@ -2,7 +2,7 @@
 require_once 'models/User.php';
 require_once 'models/Product.php';
 require_once 'models/CategoryProduct.php';
-class ProductController
+class productController
 {
     public function index()
     {
