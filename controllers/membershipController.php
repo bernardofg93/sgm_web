@@ -1,6 +1,6 @@
 <?php
 
-class MembershipController
+class membershipController
 {
     public function home()
     {   
